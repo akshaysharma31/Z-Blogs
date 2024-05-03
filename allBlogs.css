@@ -1,0 +1,240 @@
+
+:root {
+    --primarycolor: #0076de;
+    --whitecolor: #fff;
+    --blackcolor: #333;
+    --greycolor: #f6f8fa;
+    --labelcolor: #64b1f5;
+    --yellowcolor: #ffd723;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'nunito', Arial, Helvetica, sans-serif;
+
+}
+body {
+    width: auto;
+    height: auto;
+
+}
+h1 {
+    line-height: 1.5;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 2.5rem;
+    z-index: 10;
+    color: var(--whitecolor);
+    background: rgba(0, 0, 0, 0.233);
+    
+}
+
+.navbar-logo> a{
+    letter-spacing: 4.0;
+    color: rgba(25, 25, 25, 1);
+    font-family: 'freestyle script';
+    font-size: 50px;
+    position:absolute;
+    top:8px;
+    left:25px;
+}
+.navbar-menu {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 5px;
+   border-radius: 7px;
+}
+
+.navbar-menu :hover{
+    color:#ffd723;
+}
+
+.navbar-menu  a {
+    color: var(--greycolor);
+    text-decoration: none;
+
+}
+
+.main-image {
+    width: 100%;
+    height: 86%;
+    background-image: url("/high-angle-plant-notebook-frame2.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    position: relative;
+}
+
+.partition {
+    height: 1.1px;
+    background-color: var(--blackcolor);
+    width: 100%;
+  }
+
+.header-title {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    letter-spacing: 3;
+    font-weight: bolder;
+    font-size: 52px;
+    color: var(--whitecolor);
+    text-shadow: 4px 2px 0px rgba(0,0,0,0.2);
+}
+
+.header-title > span {
+    color: var(--primarycolor);
+}
+
+.blog {
+    width:100%;
+    height: auto;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.pp {
+    width: auto;
+    height: 60px;
+    background-color: white;
+}
+
+.blog-wrapper {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.trending-image {
+    width: 40px;
+    height: auto;
+    margin-right: 100px;
+    padding: auto;
+    margin: auto;
+}
+
+.trending-name {
+    margin-right: 110px;
+    padding: auto;
+    margin: auto;
+    font-size: 8rem;
+    
+}
+
+.blog-card {
+    width: 300px;
+    height: auto;
+    margin: 1rem;
+    box-shadow: 0 1px 6px 0 rgb(49 53 59 / 12%);
+    cursor: pointer;
+}
+
+.blog-image {
+    width: 100%;
+    height:150px;
+    object-fit: cover;
+
+}
+
+.blog-detail {
+    padding: 20px;
+
+}
+
+.blog-datail span {
+    color: var(--yellowcolor);
+    font-size: 0.7rem;
+
+
+}
+
+.blog-deatil h4 {
+    padding: 10px 0;
+}
+
+.divider {
+    margin: 1rem 0;
+    border :0.5 solid var(--greycolor);
+}
+
+.blog-more {
+    color: var(--primarycolor);
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.blog-card:hover {
+    box-shadow: rgba(232, 253, 0) 0px 7px 29px 0px;
+}
+.container1 {
+  border: 1px solid black;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50;
+  width: 100;
+
+  background-color: #ffffff;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+}
+
+.trending-image {
+    width: 40px;
+    height: 37px; 
+    margin-left: 23px; 
+}
+
+.trheading{
+    margin-right: 1073px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-weight: 670;
+}
+
+.backtotop {
+    width: auto;
+    height: 50px;
+    background-color:  #ffd723;
+}
+
+.backtotop:hover {
+    box-shadow: 0 1px 6px 0 rgb(0, 0, 0);   
+}
+.backtop {
+    font-family: inherit;
+    text-align: center;
+    padding: 15px 0;
+    color: var(--primarycolor); 
+
+}
+
+.bn45 {
+    width: 170px;
+    height: 50px;
+  }
