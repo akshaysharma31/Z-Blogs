@@ -27,18 +27,17 @@
     }
     
     .navbar {
-       
+        position: absolute;
         width: 100%;
         height: 70px;
         display: flex;
         justify-content: space-between;
-        position: fixed;
         top: 0;
         left: 0;
         padding: 1.5rem 2.5rem;
         z-index: 10;
         color: var(--whitecolor); 
-        background: rgba(0, 0, 0, 0.230);
+        /* background: rgba(0, 0, 0, 0.230); */
         
     }
     
@@ -60,10 +59,10 @@
        border-radius: 7px;
     }
 
-    .navbar-menu :hover{
+     .navbar-menu :hover{
          color: var(--primarycolor);
-        color:hsl(49, 100%, 78%);
-    }
+        color:hsl(49, 18%, 23%);
+    } 
     
     .navbar-menu  a {
         color: var(--greycolor);
@@ -185,7 +184,7 @@
     
     .blog-card:hover {
         box-shadow: rgb(240, 255, 74) 0px 7px 29px 0px;
-    }
+    } 
     .container1 {
       border: 1px solid black;
       height: 200px;
@@ -328,9 +327,9 @@
         font-size: 20px;
       }
 
-      .readbutton:hover {
+      /* .readbutton:hover {
         color: #ffd723;
-      } 
+      }  */
       
       .copyright {
         display: flex;

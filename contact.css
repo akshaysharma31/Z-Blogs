@@ -2,12 +2,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/abstract-solid-shining-yellow-gradient-studio-wall-room-background-min.jpg");
-    background-color: #f5f5f5;
+    background-image: url("/high-angle-plant-notebook-frame2.jpg"); 
+    background-color: #ffeb7b;
 
 }
 .line {
-    font-family: '';
+    font-family: 'freestyle script';
+     font-size: 25px; 
 }
 .contact-content {
     max-width: 600px;
@@ -49,5 +50,5 @@ body {
 }
 
 .btn:hover {
-    color: #eeff00;
+    color: #ffffff;
 }

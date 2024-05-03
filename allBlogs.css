@@ -30,19 +30,19 @@ h1 {
     height: 70px;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     padding: 1.5rem 2.5rem;
     z-index: 10;
     color: var(--whitecolor);
-    background: rgba(0, 0, 0, 0.233);
+
     
 }
 
 .navbar-logo> a{
     letter-spacing: 4.0;
-    color: rgba(25, 25, 25, 1);
+     color: rgba(25, 25, 25, 1);
     font-family: 'freestyle script';
     font-size: 50px;
     position:absolute;
@@ -55,11 +55,14 @@ h1 {
     justify-content: space-between;
     margin: 4px 5px;
    border-radius: 7px;
+  
+   
 }
 
-.navbar-menu :hover{
-    color:#ffd723;
+.navbt {
+    color: black;
 }
+
 
 .navbar-menu  a {
     color: var(--greycolor);
